@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="RTS">
+  <grid id="27dc6" binding="RTSPanel" layout-manager="GridLayoutManager" row-count="8" column-count="32" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="10" y="9" width="794" height="440"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="a06a5" class="javax.swing.JLabel" binding="message">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="30" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="RTSUI"/>
+        </properties>
+      </component>
+      <vspacer id="42bcd">
+        <constraints>
+          <grid row="1" column="31" row-span="6" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="a6472" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="28" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="VALVE V1"/>
+        </properties>
+      </component>
+      <component id="278c3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="28" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="VALVE V2"/>
+        </properties>
+      </component>
+      <component id="91c6a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="28" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="VALVE V3"/>
+        </properties>
+      </component>
+      <component id="65548" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="28" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="PUMP P1"/>
+        </properties>
+      </component>
+      <component id="4f3e1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="28" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="PUMP P2"/>
+        </properties>
+      </component>
+      <component id="8d520" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="28" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="MOTOR M1"/>
+        </properties>
+      </component>
+      <component id="8ae4d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="28" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="MOTOR M2"/>
+        </properties>
+      </component>
+      <component id="3159b" class="javax.swing.JLabel" binding="STATUSV1">
+        <constraints>
+          <grid row="1" column="30" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="STATUS"/>
+        </properties>
+      </component>
+      <component id="67e46" class="javax.swing.JLabel" binding="STATUSV2">
+        <constraints>
+          <grid row="2" column="30" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="VALVE V2"/>
+        </properties>
+      </component>
+      <component id="b0c53" class="javax.swing.JLabel" binding="STATUSV3">
+        <constraints>
+          <grid row="3" column="30" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="STATUS"/>
+        </properties>
+      </component>
+      <component id="be9f" class="javax.swing.JLabel" binding="STATUSP1">
+        <constraints>
+          <grid row="4" column="30" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="STATUS"/>
+        </properties>
+      </component>
+      <component id="f3587" class="javax.swing.JLabel" binding="STATUSP2">
+        <constraints>
+          <grid row="5" column="30" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="STATUS"/>
+        </properties>
+      </component>
+      <component id="a1b64" class="javax.swing.JLabel" binding="STATUSM1">
+        <constraints>
+          <grid row="6" column="30" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="STATUS"/>
+        </properties>
+      </component>
+      <component id="67aa1" class="javax.swing.JLabel" binding="STATUSM2">
+        <constraints>
+          <grid row="7" column="30" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="STATUS"/>
+        </properties>
+      </component>
+      <hspacer id="66aba">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="bd40b">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>

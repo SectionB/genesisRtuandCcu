@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CCS">
+  <grid id="27dc6" binding="CSSPanel" layout-manager="GridLayoutManager" row-count="10" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="1" y="4" width="841" height="600"/>
+    </constraints>
+    <properties>
+      <background color="-1838534"/>
+      <enabled value="false"/>
+      <foreground color="-14042211"/>
+      <minimumSize width="600" height="600"/>
+      <preferredSize width="500" height="500"/>
+      <requestFocusEnabled value="true"/>
+    </properties>
+    <clientProperties>
+      <html.disable class="java.lang.Boolean" value="false"/>
+    </clientProperties>
+    <border type="none"/>
+    <children>
+      <component id="29181" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="9" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="RTU Interface"/>
+        </properties>
+      </component>
+      <component id="6c2d9" class="javax.swing.JLabel" binding="STATUSV1">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1314228"/>
+          <text value="STATUS"/>
+        </properties>
+      </component>
+      <component id="c8b20" class="javax.swing.JLabel" binding="STATUSV2">
+        <constraints>
+          <grid row="2" column="3" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="STATUS"/>
+        </properties>
+      </component>
+      <component id="adaa5" class="javax.swing.JLabel" binding="STATUSV3">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="STATUS"/>
+        </properties>
+      </component>
+      <component id="5c1be" class="javax.swing.JLabel" binding="STATUSP1">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="STATUS"/>
+        </properties>
+      </component>
+      <component id="f372" class="javax.swing.JLabel" binding="STATUSP2">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="STATUS"/>
+        </properties>
+      </component>
+      <component id="56c7c" class="javax.swing.JLabel" binding="STATUSM1">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="STATUS"/>
+        </properties>
+      </component>
+      <component id="3748c" class="javax.swing.JLabel" binding="STATUSM2">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="STATUS"/>
+        </properties>
+      </component>
+      <component id="192d1" class="javax.swing.JButton" binding="ONOFFButtonV1">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ON/OFF"/>
+        </properties>
+      </component>
+      <component id="4766d" class="javax.swing.JButton" binding="ONOFFButtonV2">
+        <constraints>
+          <grid row="2" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ON/OFF"/>
+        </properties>
+      </component>
+      <component id="7a591" class="javax.swing.JButton" binding="ONOFFButtonV3">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ON/OFF"/>
+        </properties>
+      </component>
+      <component id="4491a" class="javax.swing.JButton" binding="ONOFFButtonP1">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ON/OFF"/>
+        </properties>
+      </component>
+      <component id="4f373" class="javax.swing.JButton" binding="ONOFFButtonP2">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ON/OFF"/>
+        </properties>
+      </component>
+      <component id="5340e" class="javax.swing.JButton" binding="ONOFFButtonM1">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ON/OFF"/>
+        </properties>
+      </component>
+      <component id="c4b4e" class="javax.swing.JButton" binding="ONOFFButtonM2">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ON/OFF"/>
+        </properties>
+      </component>
+      <component id="498cf" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Valve V1"/>
+        </properties>
+      </component>
+      <component id="301b0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Valve V2"/>
+        </properties>
+      </component>
+      <component id="d37a0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Valve V3"/>
+        </properties>
+      </component>
+      <component id="e5dc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pump P1"/>
+        </properties>
+      </component>
+      <component id="7fe1d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pump P2"/>
+        </properties>
+      </component>
+      <component id="9b84b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Motor M1"/>
+        </properties>
+      </component>
+      <component id="de94e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Motor M2"/>
+        </properties>
+      </component>
+      <component id="57c52" class="javax.swing.JLabel" binding="MESSEGE">
+        <constraints>
+          <grid row="2" column="4" row-span="7" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f95ff" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="MESSAGE"/>
+        </properties>
+      </component>
+      <component id="7060b" class="javax.swing.JLabel" binding="CLIENTSTAUS">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="CLIENT"/>
+        </properties>
+      </component>
+      <component id="45dc3" class="javax.swing.JButton" binding="SEND">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="SEND"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
